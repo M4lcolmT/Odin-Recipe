@@ -1,0 +1,52 @@
+* {
+    line-height: 1.5;
+    margin: 0  auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #c2a3d1;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+img {
+    width: 200px;
+}
+
+ul {
+    list-style: none;
+}
+
+.title-container {
+    width: 400px; /* 2 + 50 + 400 + 50 + 2 */
+    text-align: center;
+    background-color: #ffffff;
+    margin: 50px auto;
+    padding: 50px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, .5); 
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-container a  {
+    background-color:whitesmoke;
+    border-radius: 25px;
+    text-decoration: none;
+    padding: 10px 12px;
+    box-shadow: 0 0 0px black;
+    color: 	#9867C5;
+}
+
+.ingredients-list {
+    display:inline-table;
+    background-color: white;
+}
